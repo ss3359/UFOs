@@ -5,32 +5,32 @@ const tableData = data;
 // Reference the HTML table using d3
 var tbody = d3.select("tbody"); 
 
-// Simple function using console.log() to print out something to the console.
-function hello_world()
-{
+// // Simple function using console.log() to print out something to the console.
+// function hello_world()
+// {
 
-console.log("Hello World"); 
+// console.log("Hello World"); 
 
-}; 
-hello_world()
+// }; 
+// hello_world()
 
-function say_something()
-{
+// function say_something()
+// {
 
-    return "Hi!"; 
+//     return "Hi!"; 
 
-}; 
-say_something(); 
+// }; 
+// say_something(); 
 
 
 // Takes two numbers and adds them together
 
-function add(a, b)
-{
+// function add(a, b)
+// {
 
-    return a+b; 
+//     return a+b; 
 
-}
+// }
 
 function buildTable(data)
 {
