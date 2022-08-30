@@ -10,13 +10,14 @@
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous"
      /> 
-     <link rel="stylesheet" href = "static/css/style.css"> 
+     <link rel="stylesheet" href = "css/style.css"> 
 
 </head>
-<body>
+<!-- <body class = "bg-dark"></body> -->
+<body class = "bg-dark">
     <div class = "wrapper"> 
 
-        <nav class = "navbar navbar-expand-lg">
+        <nav class = "navbar navbar-dark bg-dark navbar-expand-lg">
 
             <a class = "navbar-brand" href = "index.html">UFO Sightings</a>
 
@@ -24,12 +25,12 @@
         </nav>
     </div>
     <div class = "jumbotron">
-        <h1>The Truth Is Out There</h1>
+        <h1 class = "display-4">The Truth Is Out There</h1>
     </div>
     <div class="container-fluid">
         <div class = "row">
             <div class = "col-md-4">
-                <h3>UFO Sightings: Fact or Fancy?<small>Ufologists Weigh In</small></h3>
+                <h3>UFO Sightings: Fact or Fancy?<small> Ufologists Weigh In </small></h3>
 
             </div>
             <div class = "col-md-8">
@@ -46,8 +47,8 @@
     <div class = "container-fluid">
         <div class = "row">
             <div class = "col-md-3">
-
             </div>
+
             <div class = "col-md9">
                 <table class = "table table-striped">
                     <thead>
@@ -65,23 +66,34 @@
                 </table>
 
              </div>
-                <form>
-                    <p>Filter Search</p>
-                </form>
-                <ul class = "list-group">
-                    <li class = "list-group-item">
+                <form class ="bg-dark">
+                    <p> 
+                        Filter Search
+                    </p>
+                
+                 <ul class = "bg-dark">
+                    <li [tag.]{style = "font-family:inherit; font-size: 1rem;"}>
 
-                    </li>
-                    <li class = "list-group-item">
                         <label for = "date">Enter Date</label>
                         <input type = "text" placeholder="1/10/2010" id = "datetime"/>
-                        <button id = "fiter-btn" type = "button" class = "btn btn-default">Filter Table</button>
-
+                    </li>
+                    <li>
+                        <button id = "fiter-btn" type = "button" class = "btn btn-dark">
+                            Filter Table
+                        </button>
 
                     </li>
-                </ul>
-            </div>
+                    
+                 </ul>
+             </form>
+          </div>
+       
         </div>
     </div>
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src =  "data.js"></script> 
+    <script src = "app2.js"></script>
+    <!-- static/js/ -->
+
 </body>
 </html>
