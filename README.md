@@ -30,3 +30,5 @@ A user can add multiple filters to the text boxes provided in the upper left sid
 
 
 # Summary
+
+The one drawback from building this website is there are not enough Bootstrap elements to refine this website and also make the website readable to the user. There is also not enough data to make this website stand out as well. It would be necessecary to extract UFO sightings from multiple days, or from different countries as well. 
