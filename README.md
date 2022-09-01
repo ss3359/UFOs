@@ -31,8 +31,12 @@ A user can add multiple filters to the text boxes provided in the upper left sid
 
 # Summary
 
+There are some reccomendations on improving this webpage. 
+
 The one drawback from building this website is there are not enough Bootstrap elements to refine this website and also make the website readable to the user. There is also not enough data to make this website stand out as well. It would be necessecary to extract UFO sightings from multiple days, or from different countries as well. There are numerous reccomendations to improve and refine this website. The first is get more data from a creditable organization that focuses UFO's, such as the SETI Institute (Search For Extraterrestrial Intellengce). This way, the website will look professional and more reliable for a user to get crediable information about UFO sightings in their area. 
+
+In this scenario, we are limited to searching data in one file. What would make this website beneficial is to be able to share this data with others that want to execute the similar web scraping as we did on our webpage. 
 
 The second reccomendation is to get a better description of the shape of the UFO. In the dataset provided under the file "data.js", there were UFO's whose shape were labeled as "unknown" or "other". It seems redundent information and a user would like to know more about the shape of the UFO. A user might think if the UFO is a shape of a circle, a sphere, or an exotic shape like a Mobius Strip? 
 
-Another reccomendation is to make sure the website is aimed towards the target demographic desired. 
+In this webpage, there are no eyewitness reports about each UFO sighting in the webpage. I would like to create a text box on the webpage showing an option for a user to share their eyewitness account of the UFO. Maybe, we could add a box propting the user to enter their name and contact information (specifically their email address). Then that data along with the right eyewitness account would be sent to them privately for them to view on their own time. 
